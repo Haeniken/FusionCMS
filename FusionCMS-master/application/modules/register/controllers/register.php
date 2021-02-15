@@ -104,8 +104,8 @@ class Register extends MX_Controller
 
 			// If not then display our page again
 			$this->template->view($this->template->loadPage("page.tpl", array(
-				"module" => "default", 
-				"headline" => "Account creation", 
+				"module" => "default",
+				"headline" => lang("account_creation", "register"),
 				"content" => $this->template->loadPage("register.tpl", $data),
 			)), false, "modules/register/js/validate.js", "Account Creation");
 		}
