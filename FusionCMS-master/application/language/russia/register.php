@@ -35,3 +35,4 @@ $lang['password'] = "Пароль";
 $lang['confirm'] = "Подтвердить пароль";
 $lang['expansion'] = "Дополнение";
 $lang['submit'] = "Создать аккаунт!";
+$lang['account_creation'] = "Регистрация аккаунта";
